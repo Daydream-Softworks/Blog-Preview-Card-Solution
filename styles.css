@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+:root {
+    --color-yellow: #f4d04E;
+    --color-gray-950: #111;
+    --color-gray-500: #6b6b6b;
+    --color-white: #fff;
+}
+
+body {
+    margin: 0;
+    background-color: var(--color-yellow);
+    font-family: "Figtree", sans-serif;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card {
+    background-color: var(--color-white);
+    padding: 2.4rem;
+    width: fit-content;
+    max-width: 32.7rem;
+    border-radius: 2rem;
+    border: 1px solid var(--color-gray-950);
+    box-shadow: 0.8rem 0.8rem 0 0 #000;
+}
+
+.illustration {
+    max-width: 100%;
+    min-height: 20rem;
+    display: block;
+    border-radius: 1rem;
+    object-fit: cover;
+    margin-bottom: 2.4rem;
+}
+
+.card-body {
+    margin-bottom: 2.4rem;
+}
+
+#learning {
+    background-color: var(--color-yellow);
+    width: fit-content;
+    padding: 0.4rem 1.2rem;
+    margin-bottom: 1.2rem;
+    border-radius: 0.4rem;
+    font-size: 1.2rem;
+    font-weight: 800;
+    line-height: 150%;
+    color: var(--color-gray-950);
+}
+
+.published {
+    margin-bottom: 1.2rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 150%;
+    color: var(--color-gray-950);
+}
+
+h1 {
+    margin-bottom: 1.2rem;
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 150%;
+    color: var(--color-gray-950);
+}
+
+h1:hover {
+    cursor: pointer;
+    color: var(--color-yellow);
+}
+
+.body-text {
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 150%;
+    color: var(--color-gray-500);
+}
+
+.card-footer {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.profile-picture {
+    max-width: 3.2rem;
+    height: auto;
+}
+
+.author-name {
+    font-size: 1.4rem;
+    font-weight: 800;
+    line-height: 150%;
+    color: var(--color-gray-950);
+}
+
+@media (min-width: 600px) {
+    .card {
+        max-width: 38.4rem;
+    }
+
+    #learning {
+        font-size: 1.4rem;
+    }
+
+    .published {
+        font-size: 1.4rem;
+    }
+
+    h1 {
+        font-size: 2.4rem;
+    }
+
+    .body-text {
+        font-size: 1.6rem;
+    }
+}
