@@ -51,7 +51,7 @@ body {
     margin-bottom: 2.4rem;
 }
 
-#learning {
+.learning {
     background-color: var(--color-yellow);
     width: fit-content;
     padding: 0.4rem 1.2rem;
@@ -71,7 +71,7 @@ body {
     color: var(--color-gray-950);
 }
 
-h1 {
+h2 {
     margin-bottom: 1.2rem;
     font-size: 2rem;
     font-weight: 800;
