@@ -34,7 +34,7 @@ body {
     width: fit-content;
     max-width: 32.7rem;
     border-radius: 2rem;
-    border: 1px solid var(--color-gray-950);
+    border: 0.1rem solid var(--color-gray-950);
     box-shadow: 0.8rem 0.8rem 0 0 #000;
 }
 
@@ -54,6 +54,7 @@ body {
 .learning {
     background-color: var(--color-yellow);
     width: fit-content;
+    display: block;
     padding: 0.4rem 1.2rem;
     margin-bottom: 1.2rem;
     border-radius: 0.4rem;
@@ -109,7 +110,7 @@ h1:hover {
     color: var(--color-gray-950);
 }
 
-@media (min-width: 600px) {
+@media (min-width: 60rem) {
     .card {
         max-width: 38.4rem;
     }
